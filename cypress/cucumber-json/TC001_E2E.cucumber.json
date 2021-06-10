@@ -1,0 +1,109 @@
+[
+  {
+    "description": "    I want to log into my account\n    I want to select product\n    I want to add to cart\n    I want to make payment\n    I want to complete payment",
+    "keyword": "Feature",
+    "name": "Automate End to End Buy Order functionality.",
+    "line": 1,
+    "id": "automate-end-to-end-buy-order-functionality.",
+    "tags": [],
+    "uri": "TC001_E2E.feature",
+    "elements": [
+      {
+        "id": "automate-end-to-end-buy-order-functionality.;login",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user open login page",
+            "result": {
+              "status": "passed",
+              "duration": 21507000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "test111@test111.com",
+                      "test111"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user type in",
+            "result": {
+              "status": "passed",
+              "duration": 670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks on Sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 12706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "\"John Smith\" should be shown",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automate-end-to-end-buy-order-functionality.;user-selects-a-product",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "User selects a product",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "User is on product page",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

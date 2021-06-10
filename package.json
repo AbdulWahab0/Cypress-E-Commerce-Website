@@ -1,0 +1,29 @@
+{
+  "name": "cypress-e-commerce-website",
+  "version": "1.0.0",
+  "description": "The goal of this project is to automate the E-Commerce-website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run cypress",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "node_modules/.bin/cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Abdul Wahab",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "cypress-cucumber-preprocessor": "^4.1.2"
+  }
+}
