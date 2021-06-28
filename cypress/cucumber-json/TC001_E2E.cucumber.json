@@ -27,8 +27,9 @@
             "line": 12,
             "name": "the user open login page",
             "result": {
-              "status": "passed",
-              "duration": 21507000000
+              "status": "failed",
+              "duration": 7406000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.login`, but never found it.\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:65:6)\n    at Context.resolveAndRunStepDefinition (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:11044:29)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:10376:35)"
             }
           },
           {
@@ -54,8 +55,7 @@
             "line": 13,
             "name": "the user type in",
             "result": {
-              "status": "passed",
-              "duration": 670000000
+              "status": "skipped"
             }
           },
           {
@@ -64,8 +64,7 @@
             "line": 16,
             "name": "the user clicks on Sign in button",
             "result": {
-              "status": "passed",
-              "duration": 12706000000
+              "status": "skipped"
             }
           },
           {
@@ -74,8 +73,7 @@
             "line": 17,
             "name": "\"John Smith\" should be shown",
             "result": {
-              "status": "passed",
-              "duration": 20000000
+              "status": "skipped"
             }
           }
         ]
@@ -83,7 +81,7 @@
       {
         "id": "automate-end-to-end-buy-order-functionality.;user-selects-a-product",
         "keyword": "Scenario",
-        "line": 24,
+        "line": 28,
         "name": "User selects a product",
         "tags": [
           {
@@ -99,7 +97,118 @@
             "line": 20,
             "name": "User is on product page",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 13058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user selects quantity \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 636000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the user selects size \"M\"",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user selects color \"blue\"",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the user add to cart",
+            "result": {
+              "status": "passed",
+              "duration": 3377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the user should see selected item \"Faded Short Sleeve T-shirts\"",
+            "result": {
+              "status": "passed",
+              "duration": 1822000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automate-end-to-end-buy-order-functionality.;checkout-with-payment",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Checkout with payment",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John Smith",
+                      "London"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user sets delivery details",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.cart_navigation > .button > span`, but never found it.\n    at eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:42:10)\nat Array.forEach (<anonymous>)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:40:22)\n    at Context.resolveAndRunStepDefinition (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:11044:29)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/TC001_E2E.feature:10376:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "the user make a payment",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the user should complete order",
+            "result": {
+              "status": "skipped"
             }
           }
         ]
