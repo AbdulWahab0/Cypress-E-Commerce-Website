@@ -1,8 +1,4 @@
 
-
-
-
-
 <h1 align="center">Auotomation E-Commerce using Cypress  </h1>
  <p align="center">
  <img height="50px" src="https://miro.medium.com/max/7200/1*Jkb_tsMBOvL6wQ8bzldu8Q.png" />
@@ -11,6 +7,17 @@
  </p>
 
 This is a task to Automate [http://automationpractice.com/index.php](http://automationpractice.com/index.php) website using Cypress and Cucumber with Mochawesome report, Please see below for the Test Case that are automated 
+
+
+<h1 align="center">Auotomation E-Commerce Cypress Demo  </h1>
+
+<p align="center"> 
+  <kbd>
+  	<a href="#" target="_blank">
+		<img src="Project_Demo.gif" width="1128"></img>
+	</a>
+  </kbd>
+</p>
 
 
 ## Test Case:
