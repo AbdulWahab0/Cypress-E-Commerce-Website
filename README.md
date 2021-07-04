@@ -9,7 +9,7 @@
 This is a task to Automate [http://automationpractice.com/index.php](http://automationpractice.com/index.php) website using Cypress and Cucumber with Mochawesome report, Please see below for the Test Case that are automated 
 
 
-<h1 align="center">Auotomation E-Commerce Cypress Demo  </h1>
+<h1 align="center">Cypress Automation Demo  </h1>
 
 <p align="center"> 
   <kbd>
