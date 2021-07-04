@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-04T01:16:22.945Z",
+    "end": "2021-07-04T01:16:53.724Z",
+    "duration": 30779,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d7ebe040-7a8b-4ebe-a2cb-116db6cb533d",
+      "title": "",
+      "fullFile": "cypress/integration/TC003_totalPrice.feature",
+      "file": "cypress/integration/TC003_totalPrice.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "54f244a7-3ebb-466d-b042-8c7b9d98cf09",
+          "title": "Verify cart summary total and sub total",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login",
+              "fullTitle": "Verify cart summary total and sub total Login",
+              "timedOut": null,
+              "duration": 12851,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "907c536b-323d-48cd-8597-2cd06de7a4b4",
+              "parentUUID": "54f244a7-3ebb-466d-b042-8c7b9d98cf09",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Shopping  Cart Summary/Total (example #1)",
+              "fullTitle": "Verify cart summary total and sub total Shopping  Cart Summary/Total (example #1)",
+              "timedOut": null,
+              "duration": 17331,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "128d2299-1e4b-4ad2-8ff8-55897858192c",
+              "parentUUID": "54f244a7-3ebb-466d-b042-8c7b9d98cf09",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "907c536b-323d-48cd-8597-2cd06de7a4b4",
+            "128d2299-1e4b-4ad2-8ff8-55897858192c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30182,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

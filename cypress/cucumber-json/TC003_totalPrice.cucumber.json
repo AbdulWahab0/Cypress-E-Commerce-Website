@@ -1,0 +1,160 @@
+[
+  {
+    "description": "    I want to log into my account\n    I want to select product\n    I want to add to cart\n    I want to make payment\n    I want to complete payment",
+    "keyword": "Feature",
+    "name": "Verify cart summary total and sub total",
+    "line": 1,
+    "id": "verify-cart-summary-total-and-sub-total",
+    "tags": [],
+    "uri": "TC003_totalPrice.feature",
+    "elements": [
+      {
+        "id": "verify-cart-summary-total-and-sub-total;login",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user open login page",
+            "result": {
+              "status": "passed",
+              "duration": 9756000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "test111@test111.com",
+                      "test111"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user type in",
+            "result": {
+              "status": "passed",
+              "duration": 1810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks on Sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 2063000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "\"John Smith\" should be shown",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-cart-summary-total-and-sub-total;shopping--cart-summary/total",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Shopping  Cart Summary/Total",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "User is on product page",
+            "result": {
+              "status": "passed",
+              "duration": 10787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user selects quantity \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the user selects size \"M\"",
+            "result": {
+              "status": "passed",
+              "duration": 721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user selects color \"blue\"",
+            "result": {
+              "status": "passed",
+              "duration": 679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the user add to cart",
+            "result": {
+              "status": "passed",
+              "duration": 3801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the user should see selected item \"Faded Short Sleeve T-shirts\"",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the price should match",
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

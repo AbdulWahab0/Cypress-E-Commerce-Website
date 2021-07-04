@@ -1,4 +1,11 @@
 {
-    "testFiles": "**/*.feature"
+  "testFiles": "**/*.feature",
+  "baseUrl": "http://automationpractice.com/index.php",
+  "projectId": "69bmks",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
   }
-  
+}

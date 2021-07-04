@@ -1,0 +1,72 @@
+[
+  {
+    "description": "    I want to navigate to home page without login\n    I want to select a t shirts\n    I want to add selected t shirt to wishlist\n    I should get a error message displayed 'You must be logged in to manage your wishlist.'",
+    "keyword": "Feature",
+    "name": "Verify that 'Add to Wishlist' only works after login",
+    "line": 1,
+    "id": "verify-that-'add-to-wishlist'-only-works-after-login",
+    "tags": [],
+    "uri": "TC002_wishList.feature",
+    "elements": [
+      {
+        "id": "verify-that-'add-to-wishlist'-only-works-after-login;select-a-t-shirt-and-add-to-wishlist",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Select a t shirt and add to wishlist",
+        "tags": [
+          {
+            "name": "@wishList",
+            "line": 9
+          },
+          {
+            "name": "@TC002",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the user navigate to home page",
+            "result": {
+              "status": "passed",
+              "duration": 9229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user selects \"Faded Short Sleeve T-shirts\" t shirt",
+            "result": {
+              "status": "passed",
+              "duration": 7355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user add to wishlist",
+            "result": {
+              "status": "passed",
+              "duration": 767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should get error message",
+            "result": {
+              "status": "passed",
+              "duration": 1801000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
