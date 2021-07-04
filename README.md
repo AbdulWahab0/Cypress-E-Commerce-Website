@@ -80,6 +80,7 @@ Let me know if you have any questions. [Email Abdul Wahab ](mailto:wahab3060h@gm
  - Cypress 
  - Cucumber
  - Mochawesome
+ - Jenkins
 
 
 
@@ -100,6 +101,13 @@ Let me know if you have any questions. [Email Abdul Wahab ](mailto:wahab3060h@gm
 
 
 ## Sections 
+✔️ Multiple Cucumber Html Reports\
+✔️ Cypress Test Runner with Gherkin Syntax and Cucmber.Js\
+✔️ Integrate the cypress with Jenkins build \
+✔️ Viewing TestComplete Test Results in Jenkins\
+✔️ Cypress Command Line Test Results
+
+## Test Results 
 ✔️ Multiple Cucumber Html Reports
 
 <p align="center"> 
