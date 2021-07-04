@@ -48,7 +48,7 @@ This is a task to Automate [http://automationpractice.com/index.php](http://auto
 |6  |  Verify that error message is displayed 'You must be logged in to manage your wishlist.'|
 
   
-**Test Case 3 - Verify that Total Price is reflecting correctly if user changes quantity on 'Shopping Cart Summary' Page.**  
+**Test Case 3 - Verify that Total Price is reflecting correctly in 'Shopping Cart Summary' Page.**  
 
 | Number | Test Case Steps |
 |--|--|
@@ -63,8 +63,7 @@ This is a task to Automate [http://automationpractice.com/index.php](http://auto
 |9 | Select color of your choice.|
 |10 | Click 'Add to Cart' button.|
 |11 | Click 'Proceed to checkout' button.|
-|12 | Change the quantity to 2. |
-|13 | Verify that Total price is changing and reflecting correct price. |
+|13 | the price should match|
 |14 | Note - These are one of the few to be automated |
 
 ## Run Locally 🚀
@@ -101,65 +100,56 @@ Let me know if you have any questions. [Email Abdul Wahab ](mailto:wahab3060h@gm
 
 
 ## Sections 
-✔️ Landing Page of Pizza Shop
+✔️ Multiple Cucumber Html Reports
 
 <p align="center"> 
   <kbd>
   	<a href="#" target="_blank">
-		<img src="slider.png"></img>
+		<img src="Cucumber_Report_Mutiple.png"></img>
 	</a>
   </kbd>
 </p>
 
-✔️ Pizza  
+✔️ Cypress Test Runner with Gherkin Syntax and Cucmber.Js
 
 <p align="center"> 
   <kbd>
   	<a href="#" target="_blank">
-		<img src="Pizza Details.png"></img>
+		<img src="Cypress_Test_runner.png"></img>
 	</a>
   </kbd>
 </p>
 
-✔️ Deals and Shipping Information. 
+✔️ Integrate the cypress with Jenkins build 
 
 <p align="center"> 
   <kbd>
   	<a href="#" target="_blank">
-		<img src="Deals.png"></img>
+		<img src="Jenkis-Deploy.png"></img>
 	</a>
   </kbd>
 </p>
 
-✔️ Selected Pizza Detail and show realted pizza.
+✔️ Viewing TestComplete Test Results in Jenkins
 
 <p align="center"> 
   <kbd>
   	<a href="#" target="_blank">
-		<img src="Details.png"></img>
+		<img src="Reports from Jenkin.png"></img>
 	</a>
   </kbd>
 </p>
 
-✔️ Selected Pizza Cart.
+✔️ Cypress Command Line Test Results
 
 <p align="center"> 
   <kbd>
   	<a href="#" target="_blank">
-		<img src="Cart.png"></img>
+		<img src="cli_results .png"></img>
 	</a>
   </kbd>
 </p>
 
-✔️ Checkout page and order summary.
-
-<p align="center"> 
-  <kbd>
-  	<a href="#" target="_blank">
-		<img src="checkout.png"></img>
-	</a>
-  </kbd>
-</p>
 
 
 ## Contributors ✨
